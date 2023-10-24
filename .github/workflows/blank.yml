@@ -5,6 +5,6 @@ jobs:
   runs-on:ubuntu-latest
   steps:
   - name:Imprimir saludo
-  run:echo "hola mundo"
+   run:echo "hola mundo"
   -name: Imprimir despedida
-  run: "listo. ¡adios
+   run: "listo. ¡adios
