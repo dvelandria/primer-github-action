@@ -1,0 +1,10 @@
+name: Mi primer Workflow
+on: workflow_dispatch
+jobs:
+  primer-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Primer saludos
+        run: echo "Hola Mundo ^^"
+      - name: Primer despedida
+        run: echo "Hasta pronto ^^"  
